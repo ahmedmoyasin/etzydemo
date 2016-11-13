@@ -6,7 +6,9 @@ ruby "2.3.0"
 gem 'rails', '4.2.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
-gem "paperclip", "~> 5.0.0"
+gem 'paperclip', "~> 3.1.0"
+gem 'paperclip-dropbox', ">= 1.1.7"
+gem 'devise'
 
 group :production do
   gem 'pg'
